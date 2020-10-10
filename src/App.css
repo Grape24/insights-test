@@ -1,0 +1,145 @@
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header .header-text{
+  background-color: #a090a0;
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-container ul{
+  margin: 0;
+  background-color: white;
+}
+.nav-container ul li {
+  padding: 1rem;
+  cursor: pointer;
+}
+.nav-container ul .link-active{
+  border-bottom: 4px solid #a090a0;
+}
+
+.process-status-container {
+  background-color: #2d74ad;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.insight-container{
+  background-color: white;
+  border: 1px solid green;
+  margin: 0.5rem 0;
+  border-radius: 3px;
+  grid-template-columns: 1fr 20fr;
+}
+
+.insight-container .display-order{
+  background-color: green;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 1rem 9rem 1rem; 
+}
+
+
+.insight-container .insight-text{
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+
+
+.insight-container .insight-text textarea{
+  padding: 1rem;
+  font-size: 1.7rem;
+  outline:none;
+  height: -webkit-fill-available;
+}
+
+
+
+.statistics-continer span{
+  font-size: 1rem;
+  color: #5a5a5a;
+}
+
+.process-status-container [alt="open-process-icon"]{
+  max-width: 4.5rem;
+  padding: 1rem;
+}
+
+[alt="menu"]{
+  max-width: 20px;
+  grid-column: -1;
+  padding: 1rem;
+  cursor: pointer;
+}
+.edit-btns-container{
+  align-self: flex-end;
+}
+
+.edit-btns-container button{
+  border: 2px solid;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.edit-btns-container .save-btn{
+  background-color:white;
+  color: green;
+  border-color: green;
+}
+
+.edit-btns-container .cancel-btn{
+  background-color: green;
+  color: white;
+  border-color: white;
+  margin-left: 0.5rem;
+}
+
+
+
+
+/* helpers */
+.flex{
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.clean-list{
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+}
+
+/* media-queries */
