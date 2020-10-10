@@ -1,6 +1,6 @@
 -In order to run this project, you will need to clone it first.
 
--On you terminal: cd insights-test
+-On your terminal: cd insights-test
 
 -npm i
 
