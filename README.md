@@ -1,3 +1,8 @@
+-In order to run this project, you will need to clone it first.
+-On your terminal run npm i
+-Run npm start
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
